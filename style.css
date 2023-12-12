@@ -1,0 +1,32 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html, body {
+	width: 100vw;
+	height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+	/*fondoclaro:  #b9a404;*/
+    background: linear-gradient(#8F7F00, #8F7F00);
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.contenedor__main {
+	width: fit-content;
+	height: inherit;
+	background-color: inherit;
+	display: block;
+}
+
+#canvas {
+	border: 2px solid black;
+	width: 100vw;
+	height: 100vh;
+}
